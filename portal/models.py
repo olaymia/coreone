@@ -10,4 +10,4 @@ class Contact(models.Model):
     question=models.TextField()
     
     def __str__(self):
-        return self.first_namefrom
+        return self.first_name
